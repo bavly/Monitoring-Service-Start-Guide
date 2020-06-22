@@ -2,7 +2,12 @@
 
 Some points you need to start think about it, before Monitoring your service.
 
-- We have 2 Layers      from Server layer ( Linux , windows ) , Application layer 
+- We have some Layers I will talk about them 
+  from Server layer ( Linux , windows ) 
+  Application layer 
+  Network layer 
+  Security layer
+
 - We will be talk about these 2 layers 
 
 # First we will talk about Server layer. 
@@ -38,4 +43,14 @@ Some points you need to start think about it, before Monitoring your service.
    Do not think about save these data in Database will be hassel for you to mange it, every time or 1 hour 
    There are some services doing that like 
    https://www.datadoghq.com/ ,  https://newrelic.com/
+   
+# Third we will talk about Network layer.
+
+- I see if you need to monitor Netowrk layer between routers & switches use product called Solarwind very effcient.
+https://www.solarwinds.com/ gives you full sight about your network lagging & latency 
+
+# Security layer
+
+- It depends about type of data you safe, some tools will be helpfull like. 
+cisco apollo alto application will be good enough, if you want to trak your internnal servers traffic.
 
