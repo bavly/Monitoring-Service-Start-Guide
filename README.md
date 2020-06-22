@@ -3,17 +3,22 @@
 Some points you need to start think about it, before Monitoring your service.
 
 - We have some Layers I will talk about them 
-  from Server layer ( Linux , windows ) 
+  
+  Server layer ( Linux , windows ) 
+  
   Application layer 
+  
   Network layer 
+  
   Security layer
 
-- We will be talk about these 2 layers 
+- We will be talk about these layers 
 
-# First we will talk about Server layer. 
-- from server perspective I think Zabbix (https://www.zabbix.com/) Free open source monitoring service, will be enough for you to monitor the server. 
+# Server layer. 
 
-# Second we will talk about Application layer. 
+- From server perspective I think Zabbix (https://www.zabbix.com/) Free open source monitoring service, will be enough for you to monitor the server. 
+
+# Application layer. 
 
 - There are some questions :- 
 
@@ -44,7 +49,7 @@ Some points you need to start think about it, before Monitoring your service.
    There are some services doing that like 
    https://www.datadoghq.com/ ,  https://newrelic.com/
    
-# Third we will talk about Network layer.
+# Network layer.
 
 - I see if you need to monitor Netowrk layer between routers & switches use product called Solarwind very effcient.
 https://www.solarwinds.com/ gives you full sight about your network lagging & latency 
